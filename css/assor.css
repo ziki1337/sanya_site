@@ -1,0 +1,139 @@
+.product {
+	margin-bottom: 30px;
+}
+.image img {
+	height: 300px;
+	width: 400px;
+	object-fit: cover;
+	border-radius: 7px;
+}
+.image {
+	margin-bottom: 10px;
+}
+.info h3 {
+	font-size: 21px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.rating {
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style-type: none;
+
+}
+.rating li {
+	display: inline-block;
+	color: rgba(52, 224, 167, 1);
+}
+.info-price {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-top: 10px;
+	align-items: center;
+}
+.add-to-card {
+	border: none;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(52, 224, 167, 1);
+	color: black;
+	border-radius: 10px;
+}
+.price {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.booking_form {
+    max-width: 400px;
+    margin: 4rem auto;
+}
+h2 {
+    font-family: 'Roboto Condensed';
+    font-size: 32px;
+    color: #313030;
+    padding-bottom: 30px;
+}
+.booking_form .input_contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+ input[type=text] {
+    height: 30px;
+    border: 1px solid #f1f1f1;
+    padding: 0 13px;
+    font-family: 'Open Sans';
+    color: #737272;
+    font-size: 14px;
+}
+.booking_form .input_contact input[type=text] {
+    width: 190px;
+    margin-bottom: 15px;
+}
+
+
+.booking_form .input_label input[type=text] {
+    width: 320px;
+    margin-bottom: 15px;
+}
+.booking_form .input_label label {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ .booking_form .input_label span {
+    font-family: 'Open Sans';
+    color: #737272;
+    font-size: 14px;
+    line-height: 30px;
+}
+input::-webkit-input-placeholder,
+
+input::-moz-input-placeholder {
+
+    font-family: 'Open Sans';
+
+    color: #737272;
+
+    font-size: 14px;
+
+}
+ *:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+
+*:focus::-ms-input-placeholder {
+    color: transparent;
+}
+.booking_form .submit_button {
+    display: flex;
+    justify-content: flex-end;
+}
+.booking_form input[type=submit] {
+    width: 120px;
+    height: 45px;
+    background: #607D8B;
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
